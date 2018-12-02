@@ -6,34 +6,89 @@ Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
 
+    Answer: JavaScript Code style is different ways on how you code. Do you use tabs or 
+            spaces as indentation. Do you use semicolons or not? 
+
+            An example of using a bad Code style is to use double equal signs (==) instead 
+            of tripple (===). Another example is to avoid using curly braces ({}) or brackets ([]).
+
+            If you use as close as standard JS Code style it's way easier for other developers
+            to be able to read your code.
 
 
 2. What is a Regular Expression?
 
+    Answer: Regular Expression or "RegEX", is a set of characters that defines a search
+            pattern. This pattern is usually used with strings. To make a set of rules on 
+            how the string should contain and look like.
+
 
 
 3. What does the .random() method do?
+    
+    Answer: .random() method returns a pseudo random number in the range of 0-1.
 
 
 
 4. What does the .sort() method do?
 
-
+    Answer: The .sort() method is an array sort method. It is used to sort array items.
+            The order in wich the items are sorted may be in eighter alphabetic or ascendig, 
+            and decending or ascending. As default the method will sort the items as strings 
+            in an ascending and alphabetical order.
 
 5. What does the .reverse() method do?
+
+    Answer: The .reverse() method reverses an array. The first element becomes the last and
+            the last element becomes the first. 
 
 
 
 6. List two examples of bad JavaScript code.
 
+    Example 1:
+
+    b = 3;
+    c = "3";
+
+    if(a == b)
+
+    console.log("This is true);
+
+    Example 2:
+
+    var myArray = new Array();
+
+    myArray[0] = "Audi";
+    myArray[1] = "BMW";
+    myArray[2] = "Opel";
+
 
 
 7. What data types can a JSON object contain?
+
+    Answer: JSON can contain 6 datatypes:
+            1. Objects
+            2. Arrays
+            3. strings
+            4. Numbers
+            5. Booleans
+            6. Null
 
 
 
 8. What is minifying JavaScript Code?
 
+    Answer: Minifying JS code is the process of removing all of the unnecessary 
+            characters from the code wihout changing the codes functionality. 
+            Unnecessary characters include white space, new line characters, comments and so on.
+            These are on the other had used to add readability but are not required for it to exectute.
+
 
 
 9. What is a global variable?
+
+    Answer: A global variable is a variable that can be accessed from any program and function, and can 
+            easily be changed by mistake. And therefore global variables should be avoided as much as possible.
+
+            All variables outside functions and programs are global variables. 
