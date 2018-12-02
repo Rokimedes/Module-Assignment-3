@@ -21,7 +21,7 @@ var videoObject = { // Had to add it to an variable to not get an error for firs
         for (key in videoObject.video[i]) {
             if (videoObject.video[i].hasOwnProperty(key)) {
                 if (key !== "author") { // Hide the Author object to not show as [Object] [Object]
-                console.log(key + ": " + videoObject.video[i][key]);
+                    console.log(key + ": " + videoObject.video[i][key]);
                 }
             };
 
@@ -32,7 +32,6 @@ var videoObject = { // Had to add it to an variable to not get an error for firs
     var authorArray = videoObject.video[0].author.data;
 
     for (var j = 0; j < authorArray.length; j++) {
-
         for (key in authorArray[j]) {
             if (authorArray[j].hasOwnProperty(key)) {
                 console.log(key + ": " + authorArray[j][key]);

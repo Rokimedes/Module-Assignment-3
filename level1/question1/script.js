@@ -1,11 +1,11 @@
 //Use RegEx to validate form
 
-document.getElementById("submit").addEventListener("click",  function() {
+document.getElementById("submit").addEventListener("click", function () {
     var firstName = document.getElementById("fname").value;
     var firstNameRGEX = /^[a-zA-Z ]+$/;
     var firstNameResult = firstNameRGEX.test(firstName);
     console.log("First Name is: " + firstNameResult);
-    
+
     var lastName = document.getElementById("lname").value;
     var lastNameRGEX = /^[a-zA-Z ]+$/;
     var lastNameResult = lastNameRGEX.test(lastName);
