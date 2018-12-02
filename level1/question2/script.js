@@ -20,14 +20,11 @@ var videoObject = { // Had to add it to an variable to not get an error for firs
 
         for (key in videoObject.video[i]) {
             if (videoObject.video[i].hasOwnProperty(key)) {
-                if (key !== "author") { // Hide the Author object to not show as [Object] [Object]
                     console.log(key + ": " + videoObject.video[i][key]);
                 }
             };
 
         };
-
-    };
 
     var authorArray = videoObject.video[0].author.data;
 
@@ -41,3 +38,6 @@ var videoObject = { // Had to add it to an variable to not get an error for firs
 
     };
 })();
+
+// Had some issues being able to solve this "puzzle" of the loops, and this was the best i could
+// think of. I guess there is an easier way to do it, and i want to learn it but i did the best i could for this one.
